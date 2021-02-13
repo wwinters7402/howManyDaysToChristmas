@@ -16,11 +16,11 @@ namespace LydiaDateSpan
         static void Main(string[] args)
         {
 
-            DateTime local = DateTime.Now;
+            DateTime localTime = DateTime.Now;
             var shortDateNow = DateTime.Now.ToShortDateString();
             DateTime Christmas = new DateTime(2021, 12, 25);
 
-            TimeSpan daysToChristmas = Christmas - local;
+            TimeSpan daysToChristmas = Christmas - localTime;
 
            
 
